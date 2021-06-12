@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/main.css">
+    <title>About</title>
+    <style>
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}   
+body::before{
+    content: "";
+    background:url('/static/ccc.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;  
+    top: 0;
+    left: 0; 
+}
+    
+h3{
+    color:rgb(235, 30, 30);
+    font-size: 30px;
+    font-style: italic;
+    display: block;
+}
+.project{
+    font-style: inherit;
+    font-size: 20px;
+    color: black;
+    /* {% comment %} border: 2px solid black; {% endcomment %} */
+    padding: 10px 10px;
+    margin: 4px;
+}
+header img{
+    width: 45px;
+    border-radius: 50px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="about">
+            <a class="navbar-brand" href="#"><img class="im" src="/static//gym_logo.jpg"  alt=""></a>
+            <div class="name">FitMe</div>
+          </div>
+    </header>
+    <h3>Introduction</h3>
+    <div id="intro" class="project">
+        
+        <p>Regularly doing cardio and strength training reduces your risk of heart disease, diabetes, and endometrial, colon, and breast cancers. The American Heart Association recommends exercising for 30-60 minutes on most days to reduce your risk of heart disease</p>
+    </div>
+    <div id="about" class="project">
+        <h3>About the Gym</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint nisi odio ex explicabo asperiores placeat veritatis quae dicta ullam recusandae tenetur dolores earum sequi animi, quas doloribus expedita libero assumenda deserunt molestias nulla fugit quaerat. Id qui pariatur, labore magnam officia dolorum nam repellat repudiandae incidunt odit delectus aut.
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis odio reprehenderit pariatur ea optio accusamus provident porro ab, praesentium assumenda dolorum saepe corporis officia iusto velit aliquam iure similique? Iusto laudantium facere consectetur rem vel voluptas praesentium, illo dolore magnam dolores nulla earum dolorum impedit. Culpa recusandae accusamus, repudiandae qui esse nemo repellat illum obcaecati, ex nisi doloremque libero atque illo molestiae, eius deleniti animi magnam ad! Quibusdam harum accusamus reprehenderit asperiores quos suscipit sit perferendis molestias, quaerat cumque error veritatis maiores cum officia. Aut, dicta. Autem, laudantium, dolorem numquam ad architecto recusandae facere quia accusamus similique velit perferendis tempora.</p>
+    </div>
+    <div id="add" class="project">
+        <h3>Address</h3>
+        <p>Address:  Towards Residensy, Near beach, Pune, Maharashtra 411001 <br>
+        contact=1234567890</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Fit, Stay Healthy</title>
+    <link rel="stylesheet" href="/static/main.css">
+    <style>
+        body {
+        
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        body::before{
+    content: "";
+    background:url('/static/logoo.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;  
+    top: 0;
+    left: 0; 
+}
+        .logo img {
+            width: 45px;
+            border-radius: 50px;
+        }
+        .name { 
+            font-style: italic;
+            font-weight: bold;
+        }
+        header h1 {
+            color: rgb(6, 117, 25);
+            font-style: italic;
+            margin: 0px 500px;
+            font-size: 40px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a class="navbar-brand" href="/"><img class="im" src="/static//gym_logo.jpg"  alt=""></a>
+            <div class="name">FitMe</div>
+        </div>
+        <h1>Fitness Tips</h1>
+    </header>
+    <div id="tips" class="fit">
+        <h3>Some Tips</h3>
+        <ul>
+            <li>Exercise Daily. Exercise daily for at least an hour</li><br>
+            <li>Eat the Right Foods and Portion Each Meal. No matter how bad your stomach is telling you to go for candy over healthy food, try to stay away from sweets. ...</li> <br>
+            <li>Keep Track of Calories and Food Intake Per Day. </li><br>
+            <li>Be Sure to Get Sleep.</li><br>
+            <li>Stay Motivated</li><br>
+        </ul>
+        <hr color="grey">
+    </div>
+    <div>
+
+    </div>
+</body>
+
+</html>
